@@ -14,9 +14,14 @@ public class ProviderController {
     Logger logger=LoggerFactory.getLogger(ProviderController.class);
 
     @RequestMapping("/provider")
-    public String index() throws InterruptedException {
+    public String provider() throws InterruptedException {
         logger.info("请求到新接口!");
-        Thread.sleep(3000);
+        return "This is Provider!";
+    }
+
+    @RequestMapping("/hello")
+    public String hello() throws InterruptedException {
+        logger.info("hello My Dear!");
         return "This is Provider!";
     }
 }
