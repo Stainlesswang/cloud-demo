@@ -22,6 +22,6 @@ public class ProviderController {
     @RequestMapping("/hello")
     public String hello() throws InterruptedException {
         logger.info("hello My Dear!");
-        return "This is Provider!";
+        return "Hello Feign Provider!";
     }
 }
