@@ -20,6 +20,12 @@
     </properties>
 
     <dependencies>
+        <!--依赖本项目的API Base 主要实现Feign的接口继承,不需要重复写Service接口的定义-->
+        <dependency>
+            <groupId>com.allen</groupId>
+            <artifactId>base-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

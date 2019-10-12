@@ -1,4 +1,4 @@
-package com.allen.provider.bean;
+package com.allen.baseapi.dto;
 
 /**
  * @author AllenWong
