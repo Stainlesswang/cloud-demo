@@ -1,7 +1,6 @@
 package com.allen.user.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +17,9 @@ public class KafKaConsumer {
         Optional<?> kafkaMessage=Optional.ofNullable(record);
         if (kafkaMessage.isPresent()){
             Object message=kafkaMessage.get();
+            System.out.println("*****************");
             System.out.println(message);
+            System.out.println("*****************");
         }
 
     }

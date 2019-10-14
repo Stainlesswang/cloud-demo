@@ -13,7 +13,7 @@ public class UserApplication {
         ConfigurableApplicationContext context=SpringApplication.run(UserApplication.class, args);
         KafKaSender kafKaSender= context.getBean(KafKaSender.class);
         for (int i = 0; i <3 ; i++) {
-            kafKaSender.senMessage("allen_topic_test","message"+i);
+            kafKaSender.senMessage("allen_topic_test","sssssss"+i);
         }
     }
 
