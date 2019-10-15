@@ -9,6 +9,8 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author AllenWong
  * @date 2019/10/9 2:56 PM
+ *
+ * 使用Robbin的方式来实现服务调用
  */
 @Service
 public class ConsumerService {
@@ -25,7 +27,12 @@ public class ConsumerService {
         return "fail return";
     }
 
+    /**
+     * 使用继承自HystrixCommand 的子类来进行服务调用的降级功能
+     * @param id
+     * @return
+     */
     public String consumer(long id){
-        return new DemoCommand(restTemplate,1l).execute();
+        return new DemoCommand(restTemplate, 1L).execute();
     }
 }
