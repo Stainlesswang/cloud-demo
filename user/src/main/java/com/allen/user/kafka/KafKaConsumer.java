@@ -12,9 +12,9 @@ import java.util.Optional;
  */
 @Component
 public class KafKaConsumer {
-    @KafkaListener(topics = "allen_topic_test",groupId = "allen_kafka")
+    @KafkaListener(topics = "allen_topic_test",groupId = "allen_kafka2")
     public void listen(ConsumerRecord<?,?> record){
-        Optional<?> kafkaMessage=Optional.ofNullable(record);
+        Optional<?> kafkaMessage=Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()){
             Object message=kafkaMessage.get();
             System.out.println("*****************");
