@@ -18,6 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
+*.cmd
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -29,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/base-api/.mvn/**
+/open-api/.mvn/**
+/open-api/.mvn/**
+/eureka-server/.mvn/**
+/order/.mvn/**
+/user/.mvn/**
