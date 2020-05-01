@@ -1,5 +1,6 @@
 HELP.md
 target/
+**/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -32,9 +33,6 @@ build/
 ### VS Code ###
 .vscode/
 
-/base-api/.mvn/**
-/open-api/.mvn/**
-/open-api/.mvn/**
-/eureka-server/.mvn/**
-/order/.mvn/**
-/user/.mvn/**
+**/.mvn/**
+**/mvnw
+
