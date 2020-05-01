@@ -5,7 +5,10 @@ package com.allen.baseapi.dto;
  * @date 2019/10/11 9:07 PM
  */
 public class User {
+    private int id;
     private String name;
+    private String password;
+    private long money;
     private int age;
 
     public User(){}
@@ -28,6 +31,30 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public long getMoney() {
+        return money;
+    }
+
+    public void setMoney(long money) {
+        this.money = money;
     }
 
     @Override

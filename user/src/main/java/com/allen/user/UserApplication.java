@@ -1,16 +1,17 @@
 package com.allen.user;
 
-import com.allen.user.kafka.KafKaSender;
-import org.apache.kafka.clients.admin.NewTopic;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+@EnableDiscoveryClient
 @SpringBootApplication
+@MapperScan("com.allen.user.mapper")
 public class UserApplication {
 
     public static void main(String[] args) {
-
+        SpringApplication.run(UserApplication.class, args);
 //        ConfigurableApplicationContext context=SpringApplication.run(UserApplication.class, args);
 
 //        KafKaSender kafKaSender= context.getBean(KafKaSender.class);

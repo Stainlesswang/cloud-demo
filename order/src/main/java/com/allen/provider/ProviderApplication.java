@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@RestController
 public class ProviderApplication {
 
     public static void main(String[] args) {
