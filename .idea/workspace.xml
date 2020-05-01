@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f23e215-109a-432d-b0dc-ca984d609848" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/provider/target/" />
+    <ignored path="$PROJECT_DIR$/consumer/target/" />
+    <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/base-api/target/" />
+    <ignored path="$PROJECT_DIR$/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/open-api/target/" />
+    <ignored path="$PROJECT_DIR$/order/target/" />
+    <ignored path=".idea/dataSources/661a2469-e029-4b09-b08f-ac074247172e.xml" />
+    <ignored path=".idea/dataSources/d93d25c7-ff4f-4303-9390-0ede438c7265.xml" />
+    <ignored path=".idea/inspectionProfiles/Project_Default.xml" />
+    <ignored path=".idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+    <ignored path=".idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_101tec_zkclient_0_10.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_guava_guava_16_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" />
+    <ignored path=".idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" />
+    <ignored path=".idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_9_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+    <ignored path=".idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+    <ignored path=".idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
+    <ignored path=".idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__io_github_openfeign_feign_core_10_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" />
+    <ignored path=".idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" />
+    <ignored path=".idea/libraries/Maven__io_micrometer_micrometer_core_1_1_7.xml" />
+    <ignored path=".idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" />
+    <ignored path=".idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
+    <ignored path=".idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
+    <ignored path=".idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
+    <ignored path=".idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+    <ignored path=".idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+    <ignored path=".idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__joda_time_joda_time_2_10_4.xml" />
+    <ignored path=".idea/libraries/Maven__junit_junit_4_12.xml" />
+    <ignored path=".idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" />
+    <ignored path=".idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" />
+    <ignored path=".idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" />
+    <ignored path=".idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+    <ignored path=".idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_kafka_kafka_2_11_test_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" />
+    <ignored path=".idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" />
+    <ignored path=".idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" />
+    <ignored path=".idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" />
+    <ignored path=".idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" />
+    <ignored path=".idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" />
+    <ignored path=".idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_3_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_2_9_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_6_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_messaging_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+    <ignored path=".idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path=".idea/dataSources.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path="base-api/.mvn/wrapper/" />
+    <ignored mask="mvnw" />
+    <ignored mask="*.cmd" />
+    <ignored path="eureka-server/.mvn/wrapper/" />
+    <ignored path="user/.mvn/wrapper/" />
+    <ignored path="zuul/.mvn/wrapper/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seckill: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seckill: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="order: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seckill: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="stock: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seckill@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seckill: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="13" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/open-api/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serviceUrl</find>
+      <find>@link</find>
+      <find>defaultZone</find>
+      <find>init</find>
+      <find>renew</find>
+      <find>IRule</find>
+      <find>rule</find>
+      <find>message</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spring-framework-5.0.x" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/allen/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/PrividerController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/resources/application-p2.properties" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/command/DemoCommand.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/HelloService.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/bean/User.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/bean/User.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/ProviderController.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/dto/User.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/controller/RefectorProviderController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/controller/RefactorProviderController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/allen/provider/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/allen/user/bean/User.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/allen/user/kafka/KafKaSender.java" />
+        <option value="$PROJECT_DIR$/base-api/pom.xml" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/service/HelloServiceFallback.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/HelloServiceFallback.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/BaseApiApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/application-secend.properties" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/allen/user/kafka/KafKaConsumer.java" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/java/com/allen/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/allen/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/RefactorHelloService.java" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="open-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="open-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="103" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="consumer" type="cbb8eebc:String" user="consumer" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/consumer" type="cbb8eebc:String" user="com/allen/consumer" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/eurekaserver" type="cbb8eebc:String" user="com/allen/eurekaserver" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="eureka-server" type="cbb8eebc:String" user="eureka-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/provider" type="cbb8eebc:String" user="com/allen/provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/user" type="cbb8eebc:String" user="com/allen/user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/user" type="cbb8eebc:String" user="com/allen/user" />
+              <item name="kafka" type="cbb8eebc:String" user="kafka" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="zuul" type="cbb8eebc:String" user="zuul" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/allen/provider" type="cbb8eebc:String" user="com/allen/provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test/java" type="cbb8eebc:String" user="test/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test/java" type="cbb8eebc:String" user="test/java" />
+              <item name="com/allen/user" type="cbb8eebc:String" user="com/allen/user" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Tests">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="provider" type="cbb8eebc:String" user="provider" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+              <item name="com/allen/provider" type="cbb8eebc:String" user="com/allen/provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="user" type="cbb8eebc:String" user="user" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+              <item name="com/allen/user" type="cbb8eebc:String" user="com/allen/user" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="open-api" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="open-api" type="616d4139:PackageViewModuleNode" />
+              <item name="com.allen.consumer" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="Ribb&#9;FILE&#9;jar:///Users/allen/.m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java&#10;LoadBalancerClient&#9;FILE&#9;jar:///Users/allen/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java&#10;RibbonClient&#9;FILE&#9;jar:///Users/allen/.m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.class&#10;LoadBalanceCli&#9;FILE&#9;jar:///Users/allen/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java&#10;ILoadBa&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;LoadBalanced&#9;FILE&#9;jar:///Users/allen/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java&#10;DiscoveryClient&#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.allen.consumer.service" />
+      <recent name="com.allen.user.bean" />
+      <recent name="com.allen.baseapi.service" />
+      <recent name="com.allen.baseapi.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/src/main/resources" />
+      <recent name="$PROJECT_DIR$/provider/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+          <option name="enabled" value="false" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.19601743" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="open-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.allen.consumer.ConsumerApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f23e215-109a-432d-b0dc-ca984d609848" name="Default" comment="" />
+      <created>1570440183519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570440183519</updated>
+      <workItem from="1570440184646" duration="2456000" />
+      <workItem from="1570498536249" duration="6699000" />
+      <workItem from="1570540691800" duration="280000" />
+      <workItem from="1570585488840" duration="8953000" />
+      <workItem from="1570673533852" duration="15017000" />
+      <workItem from="1571041703396" duration="2368000" />
+      <workItem from="1571107750015" duration="5304000" />
+      <workItem from="1571372412890" duration="1413000" />
+      <workItem from="1571374940528" duration="5080000" />
+      <workItem from="1571537127877" duration="39000" />
+      <workItem from="1571929860526" duration="22000" />
+      <workItem from="1588159159809" duration="929000" />
+      <workItem from="1588160502619" duration="4847000" />
+      <workItem from="1588220340298" duration="1522000" />
+      <workItem from="1588303682048" duration="1699000" />
+      <workItem from="1588317660291" duration="7344000" />
+    </task>
+    <task id="LOCAL-00001" summary="Feign Demo">
+      <created>1570790526918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570790526918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start 2019.10.12">
+      <created>1570845228801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570845228801</updated>
+    </task>
+    <task id="LOCAL-00003" summary="stop feign learning">
+      <created>1570860079698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570860079698</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kafka in user module">
+      <created>1571043296840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571043296840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kafka in user module">
+      <created>1571056508897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571056508897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="服务降级实现demo">
+      <created>1571111875949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571111875949</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init commit zuul">
+      <created>1571114617504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571114617504</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cloud learn finish">
+      <created>1571125915360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571125915360</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kafka different group test">
+      <created>1571375489850</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571375489850</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kafka different group test">
+      <created>1571537141339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571537141339</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改">
+      <created>1588327639964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588327639964</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63972000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32923076" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.4902564" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.17032968" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3374359" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32923076" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" x="658" y="26" width="363" height="998" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.26007327" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.15262516" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="Favorites" order="3" sideWeight="0.50152904" side_tool="true" weight="0.22893773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997996" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32923076" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info content_ui="combo" x="658" y="26" width="363" height="998" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.22893773" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997996" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.3374359" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3296593" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.33821735" />
+      <window_info id="Favorites" order="3" sideWeight="0.50152904" side_tool="true" weight="0.22893773" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feign Demo" />
+    <MESSAGE value="start 2019.10.12" />
+    <MESSAGE value="stop feign learning" />
+    <MESSAGE value="kafka in user module" />
+    <MESSAGE value="服务降级实现demo" />
+    <MESSAGE value="init commit zuul" />
+    <MESSAGE value="cloud learn finish" />
+    <MESSAGE value="kafka different group test" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/allen/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.10.RELEASE/spring-web-5.1.10.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="28" column="86" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerUriTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1294">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.10.RELEASE/spring-web-5.1.10.RELEASE.jar!/org/springframework/web/client/AsyncRestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/AsyncLoadBalancerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="188" column="34" selection-start-line="188" selection-start-column="28" selection-end-line="188" selection-end-column="40" />
+          <folding>
+            <element signature="e#7951#7952#0" expanded="true" />
+            <element signature="e#7978#7979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/661a2469-e029-4b09-b08f-ac074247172e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://661a2469-e029-4b09-b08f-ac074247172e/schema/hive/table/bucketing_cols">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d93d25c7-ff4f-4303-9390-0ede438c7265/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/allen/user/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/allen/user/kafka/KafKaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/allen/user/kafka/KafKaSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/test/java/com/allen/baseapi/BaseApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/test/java/com/allen/provider/ProviderApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application-p2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/allen/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/allen/provider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/allen/provider/controller/RefactorProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/allen/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/BaseApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/command/DemoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/HelloServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/RefactorHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/allen/consumer/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/allen/provider/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/allen/baseapi/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open-api/.mvn/wrapper/maven-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open-api/src/main/java/com/allen/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open-api/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zuul</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
