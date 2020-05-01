@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @author AllenWong
+ *
+ * 在该包下边定义所有的Service接口,
+ * 实现fegin调用的时候只需要实现该接口的
+ *
  * @date 2019/10/11 5:40 PM
  */
 @RequestMapping("/refactor")
