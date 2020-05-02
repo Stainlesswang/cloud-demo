@@ -1,12 +1,7 @@
 package com.allen.user.kafka;
 
-import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.apache.kafka.clients.consumer.ConsumerRecords;
-import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-import java.util.Optional;
 
 /**
  * @author AllenWong

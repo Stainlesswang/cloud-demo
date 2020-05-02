@@ -1,6 +1,7 @@
 package com.allen.user.mapper;
 
 
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author AllenWong
@@ -8,7 +9,7 @@ package com.allen.user.mapper;
  */
 public interface UserMapper {
 
-    Integer updateMoney(int id,long money);
+    Integer updateMoney(@Param("id") int id, @Param("money")long money);
 
     Long getMoney(int id);
 

@@ -9,14 +9,16 @@
         <!--<result column="realName" jdbcType="VARCHAR" property="realName" />-->
     <!--</resultMap>-->
 
-    <select id="getUserById" resultType="com.allen.user.bean.User">
+    <select id="getUserById" resultType="com.allen.baseapi.dto.User">
         select * from user where id = #{id}
     </select>
+
     <select id="getMoney" resultType="java.lang.Long">
         select money from user where id = #{id}
     </select>
+
     <update id="updateMoney" >
-        select money from user where id = #{id}
+        update user set money=money-#{money} where id = #{id} and money-#{money}>0
     </update>
 
 </mapper>

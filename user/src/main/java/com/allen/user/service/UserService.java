@@ -21,4 +21,10 @@ public class UserService {
         return now != null && now > useMoney;
     }
 
+    public boolean useMoney(Integer id,Long useMoney){
+        Integer now=userMapper.updateMoney(id,useMoney);
+
+        return now != null && now > 0;
+    }
+
 }
