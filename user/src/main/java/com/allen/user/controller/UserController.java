@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author AllenWong
  * @date 2020/5/1 10:29 PM
@@ -28,7 +30,15 @@ public class UserController {
     @RequestMapping("/userMoney")
     public boolean userMoney(@RequestParam Integer id,@RequestParam Long money){
         log.info("扣减金币id={},扣减数={}",id,money);
-        return userService.useMoney(id,money);
+        boolean result;
+        try {
+            Thread.sleep(300000);
+            result = userService.useMoney(id,money);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return result;
 
     }
 }
