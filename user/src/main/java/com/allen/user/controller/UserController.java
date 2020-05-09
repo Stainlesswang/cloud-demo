@@ -4,10 +4,12 @@ import com.allen.user.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -20,6 +22,8 @@ public class UserController {
     private final Logger log=LoggerFactory.getLogger(UserController.class);
     @Autowired
     UserService userService;
+    @Autowired
+    NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     @RequestMapping("/isEnough")
     public boolean isEnough(@RequestParam Integer id,@RequestParam Long money){
@@ -39,6 +43,13 @@ public class UserController {
             return false;
         }
         return result;
+
+    }
+    @RequestMapping("/getUser")
+    public Object getUser(@RequestParam Integer id){
+        HashMap<String,Integer> hashMap=new HashMap<>();
+        hashMap.put("id",id);
+       return namedParameterJdbcTemplate.queryForList("select * from user where id=:id",hashMap);
 
     }
 }

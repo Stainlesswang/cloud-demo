@@ -21,4 +21,8 @@
         update user set money=money-#{money} where id = #{id} and money-#{money}>0
     </update>
 
+    <insert id="addUser" >
+
+    </insert>
+
 </mapper>
